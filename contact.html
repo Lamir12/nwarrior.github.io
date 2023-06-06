@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script>
+      function showPopup() {
+        document.getElementById("popup").style.display = "block";
+      }
+    </script>
+</head>
+<body>
+    <div class="home">
+      <nav>
+        <h2 class="logo">My<span>Website</span></h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="collage.html">Image</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    
+    <section class="goal2">
+        <div class="main">
+            
+            <div class="goal-text">
+              <h1>Contact Us</h1>
+
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+                
+                <input type="submit" value="Submit" onclick="showPopup()">
+              </form>
+              
+
+              <div class="popup" id="popup">
+                <h2>Thank You!</h2>
+                <p>Your message has been submitted.</p>
+              </div>
+              
+              <p>Alternatively, you can reach us at:</p>
+              <p>Email: mit223981@stud.mit.edu.au</p>
+            </div>
+        </div>
+    
+    
+    
+    <footer>
+        &copy; Israq Ahmed - B.Net - MIT223981 All rights reserved.
+    </footer>
+</body>
+</html>

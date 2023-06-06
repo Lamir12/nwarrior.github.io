@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;   
+}
+
+.logo {
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+span {
+    color:rgb(136, 142, 255)
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 5px;
+}
+nav ul li a {
+    background-color: rgb(128, 200, 206);
+    border: 2px solid transparent;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize; 
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color:white;
+    margin:0px 0px 20px;
+    font-size:75px;
+}
+h3{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.goal {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.goal2{
+    width: 100%;
+    padding: 100px 0px;
+    
+    
+}
+.goal img{
+    height: auto;
+    width: 430px;
+}
+.goal-text {
+    width: 550px;
+    color: white;
+    margin: 10px 10px 10px;
+}
+.goal-text h2 {
+    color:rgb(136, 142, 255);
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px
+}
+.goal-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.education-pic {
+  
+    width:max-content;
+    padding-top:20px;
+    margin: auto;
+   
+}
+.education-pic h4 {
+    width: 100px;
+    padding: 50px;
+    margin:auto;
+    align-content: center;
+}
+.table-section {
+    background-color: rgb(0, 0, 0);
+}
+.table {
+    width: 500px;
+    margin: auto;
+    padding:40px;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: white;  
+  }
+th {
+    background-color: rgb(136, 142, 255);
+  }
+tr:nth-child(even) {
+    background-color: rgba(136, 142, 255, 0.228);
+  }
+  tr:nth-child(odd) {
+    background-color: rgba(136, 142, 255, 0.5);
+  }
+
+
+.collage-pic {
+  
+ 
+    padding-top:20px;
+    margin: 20px;
+  }
+
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
+  }
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
